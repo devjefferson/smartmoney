@@ -3,7 +3,7 @@ import { View, Text, StyleSheet} from 'react-native';
 
 // import { Container } from './styles';
 
-const BalancePanelLabel = ({children}) => {
+const BalancePanelLabel = () => {
   return (
   <View style={styles.container}>
     <Text style={styles.labelTitle}> Saldo Atual</Text>
